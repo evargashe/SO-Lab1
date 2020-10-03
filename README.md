@@ -1,10 +1,10 @@
 ## SO-Lab1
 ## Para el productor
 Primero tenemos nuestra estructura que es llamado region :
-struct region{
-    int len;
-    char buf[MAX_LEN];
-};
+### `struct region{`
+    `int len;`
+    `char buf[MAX_LEN];`
+`};`
 
 la cual no servira para poder crear un memoria compartida.
 Usamos la funcion shm_open() que nos servira para crear y abrir un objeto de
