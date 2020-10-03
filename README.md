@@ -1,5 +1,5 @@
 ## SO-Lab1
-##Para el productor
+## Para el productor
 Primero tenemos nuestra estructura que es llamado region :
 struct region{
     int len;
@@ -19,7 +19,7 @@ en el espacio de direcciones virtuales de la proceso de llamada.
 Y cuando el valor de fork es mayor a 0 entramos a la funcion padre, al igual que la funcion hijo 
 calculamos el tiempo en que fue creado y tambien mapeamos nuestra direccion de espacio.
 
-##Para el consumidor
+## Para el consumidor
 Tambien usamos para funcion shm_open() para crear un espacio de memoria pero con la condicion
 de que solo podremos leer osea imprimir la informacion.
 Tambien haremos un mapeo a nuestra region pero solo sera de lectura.
